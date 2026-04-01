@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useSession } from "@/lib/auth-client";
 import { showMessage } from '@/components/MessageModal';
 import { getMedicalTests, addMedicalTest, updateMedicalTest, deleteMedicalTest, getCategories, getUOMs, MedicalTest, Category, UOM } from "./actions";
-import { downloadTestsExcel } from "./DownloadTests.tsx";
+import { downloadTestsExcel } from "./DownloadTests";
 import DownloadTestsPdf from "./DownloadTestsPdf";
 import AddTestModal from "./AddTestModal";
 import EditTestModal from "./EditTestModal";
